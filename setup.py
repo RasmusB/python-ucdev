@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='ucdev',
       version='0.0.3',
@@ -8,7 +8,7 @@ setup(name='ucdev',
       author='Taisuke Yamada',
       author_email='tai@remove-if-not-spam.rakugaki.org',
       license='MIT',
-      packages=['ucdev'],
+      packages=find_packages(include=['ucdev']),
       classifiers=[
           'License :: OSI Approved :: MIT License',
           'Intended Audience :: Developers',
