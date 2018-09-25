@@ -1,0 +1,1 @@
+If on Windows OS place cyusbserial.dll in this directory
